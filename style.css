@@ -24,7 +24,6 @@
 	--blue-2: 179, 219, 255;
 	--header-height: 0px;
 	--ig-banner-background: 255, 255, 255;
-	--ig-primary-text: 0, 0, 0;
 	--ig-separator: 219, 219, 219;
 	--nav-wide-width: 335px;
 	--nav-narrow-width: 72px;
@@ -32,6 +31,7 @@
 	--feed-width-wide-story: 630px;
 	--feed-sidebar-padding-familiar: 64px;
 	--feed-sidebar-width: 319px;
+	
 }
 
 ._aatg {
@@ -1894,23 +1894,16 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid rgb(var(--post-separator));
     border-radius: 4px;
 }
-
-
-
 ._aggb {
     margin: 8px 4px 8px 5px;
 }
-
 ._aaqx {
     margin: 8px 4px 8px 12px;
     padding: unset;
 }
-
 ._aarg {
     cursor: pointer;
 }
-
-
 ._aaq- {
     justify-content: center;
     margin-left: 10px;
@@ -1931,5 +1924,70 @@ h1, h2, h3, h4, h5, h6 {
     top: 1px;
     vertical-align: baseline;
 }
+._aaql {
+    align-items: stretch;
+    border: 0;
+    bottom: 1px;
+    box-sizing: border-box;
+    display: block;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    padding: 2px;
+    position: relative;
+    vertical-align: baseline;
+}
+._aacy {
+    color: rgb(var(--ig-secondary-text));
+}
+._aacn {
+    font-size: var(--system-12-font-size);
+    line-height: var(--system-12-line-height);
+    margin: -2px 0 -3px;
+}
+._aiao {
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid rgb(var(--post-separator));
+}
+._ae1l {
+    border-radius: 8px;
+}
+._ae1i {
+    background-color: rgb(var(--ig-primary-background));
+}
+
+._aggd {
+    border: none;
+}
+._agge {
+    overflow: visible;
+    padding-left: 0;
+    padding-right: 0;
+}
+._ae41 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+._ae40 {
+    padding-bottom: 6px;
+    padding-top: 0;
+}
+._ae5p {
+    padding-left: 12px;
+    padding-right: 12px;
+}
 
 
+._ae5t {
+    margin: 0 0 auto;
+    padding: 0 12px;
+}
+
+._akdn {
+    margin-bottom: 4px;
+}
