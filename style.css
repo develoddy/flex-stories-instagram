@@ -8,7 +8,7 @@
 	--ig-link: 0, 55, 107;
 	--always-dark-overlay: rgba(0, 0, 0, 0.4);
 	--web-always-black: 0, 0, 0;
-	--base-line-clamp-line-height: 0px;
+	--base-line-clamp-line-height: 18px;
 	--system-14-font-size: 14px;
 	--ig-primary-text: 0, 0, 0;
 	--font-weight-system-semibold: 600;
@@ -1199,16 +1199,6 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 
-._abl- {
-	align-items: center;
-	background: transparent;
-	border: none;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	padding: 8px;
-}
-
 ._abm0 {
 	align-items: center;
 	display: flex;
@@ -1992,5 +1982,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 4px;
 }
 
-
-
+._agne {
+    border: none;
+    padding: 0!important;
+}
+.xo1ph6p {
+    order: 3;
+}
+._aamf {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: inherit;
+    outline: none;
+    padding: 0;
+}
+._abm2 {
+    padding: 0;
+}
